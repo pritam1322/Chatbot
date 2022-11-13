@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import openai
 
 load_dotenv()
-openai.api_key = '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'
+openai.api_key = ''
 completion = openai.Completion()
 
 start_chat_log = '''Human: Hello, who are you?
